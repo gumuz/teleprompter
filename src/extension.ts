@@ -18,7 +18,7 @@ class Teleprompter {
 
 	async delay(char: string) {
 		let min, max;
-		//TODO: we wanna pause slightly longer with non-alphanums to seem more human
+		// we wanna pause slightly longer with non-alphanums to seem more human
 		if (char.charCodeAt(0) < 47) {
 			min = this.longDelayMin;
 			max = this.longDelayMax;
