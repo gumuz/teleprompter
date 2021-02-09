@@ -1,5 +1,9 @@
 {
 	"publisher": "gumuz",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gumuz/teleprompter.git"
+	},
 	"name": "teleprompter",
 	"displayName": "teleprompter",
 	"description": "Simulate coding for presentations",
